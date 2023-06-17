@@ -1,5 +1,6 @@
 Feature: purchase a ticket
 
+
   Scenario Outline: purchase a ticket
     Given User navigates to Register Page "https://blazedemo.com/purchase.php"
     When User enters Full Name "<firstName>"

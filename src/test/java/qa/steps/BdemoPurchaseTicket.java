@@ -15,6 +15,7 @@ import qa.utils.Constants2;
 
 public class BdemoPurchaseTicket {
 	BlazeDemoWebElements blazeDemo;
+	
 
 	@Given("User navigates to Register Page {string}")
 	public void user_navigates_to_register_page(String url) throws InterruptedException {

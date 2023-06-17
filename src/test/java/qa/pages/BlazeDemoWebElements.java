@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import qa.utils.Constants2;
 
 public class BlazeDemoWebElements {
+	
 	@FindBy(id="inputName")
 	WebElement firstLastNameField;
 	
