@@ -74,7 +74,7 @@ public class BlazeDemoWebElements {
 	
 	}
 	public void enterCardType(String cardType) {
-		creditCardMonthField.clear();
+		cardTypeField.clear();
 		
 		Select select = new Select (cardTypeField);
 		List<WebElement> optionList = select.getOptions();
@@ -120,6 +120,6 @@ public class BlazeDemoWebElements {
 		}
 	
 	}
-
+//this is a test
 
 }

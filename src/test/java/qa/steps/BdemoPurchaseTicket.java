@@ -71,7 +71,7 @@ public class BdemoPurchaseTicket {
 	}
 
 	@When("User enters CreditCardMonth {string}")
-	public void user_enters_credit_card_month(String creditCardMonth) throws InterruptedException {
+	public void user_enters_credit_card_month(String creditCardMonth)  {
 		blazeDemo.enterCreditMonth(creditCardMonth);
 
 	}
